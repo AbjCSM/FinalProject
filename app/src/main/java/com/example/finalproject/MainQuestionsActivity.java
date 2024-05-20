@@ -18,8 +18,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
-import static com.example.finalproject.Questions.TriviaQuestion;
-
+//import static com.example.finalproject.Questions.TriviaQuestion;
+// ^<-- I Deleted the Static inner class above. Its One class now Named TriviaQuestion
 public class MainQuestionsActivity extends AppCompatActivity {
 
     int selectedAnswerIndex = -1; //to keep track of the selected answer
@@ -51,7 +51,9 @@ public class MainQuestionsActivity extends AppCompatActivity {
     }
 
     private ArrayList<TriviaQuestion> readQuestionsFromAssets(){
-        ArrayList<TriviaQuestion> questions = null;
+
+        ArrayList<TriviaQuestion> questions = new ArrayList<>();
+        TriviaQuestion question_Placeholder = new TriviaQuestion("How many times have played Trivia","0","1","2","More than Twice ", 3);
         try {
             InputStream is = getAssets().open("questions.JSON");
             InputStreamReader isr = new InputStreamReader(is);
