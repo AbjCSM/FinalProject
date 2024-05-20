@@ -1,0 +1,77 @@
+[
+  {
+      "question": "Which actor portrayed the character Tony Stark in the Marvel Cinematic Universe?",
+      "option": ["Robert Downey Jr.", "Chris Hemsworth", "Chris Evans", "Mark Ruffalo"],
+      "correctAnswerIndex": 0
+  },
+  {
+    "question": "Which of these novels was written by J.K. Rowling?",
+    "option": ["The Hunger Games", "The Hobbit", "To Kill a Mockingbird", "Harry Potter and the Philosopher's Stone"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "question": "In which movie did Leonardo DiCaprio finally win an Oscar for Best Actor?",
+    "option": ["Inception", "The Wolf of Wall Street", "Titanic", "The Revenant"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "question": "Which of these TV series features characters in the fictional realm of Westeros?",
+    "option": ["Breaking Bad", "Game of Thrones", "The Walking Dead", "Stranger Things"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What is the highest-grossing film of all time (as of 2022)?",
+    "option": ["Avatar", "Avengers: Endgame", "Titanic", "Star Wars: The Force Awakens"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Who wrote the novel The Catcher in the Rye?",
+    "option": ["F. Scott Fitzgerald", "Ernest Hemingway", "J.D. Salinger", "Harper Lee"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "Who directed the film The Lord of the Rings: The Fellowship of the Ring?",
+    "option": ["Christopher Nolan", "Quentin Tarantino", "Martin Scorsese", "Peter Jackson"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "question": "Which actor portrayed the character Thor in the Marvel Cinematic Universe?",
+    "option": ["Chris Hemsworth", "Robert Downey Jr.", "Chris Evans", "Mark Ruffalo"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "What is the name of the wizarding school in the Harry Potter series?",
+    "option": ["Beauxbatons", "Hogwarts", "Durmstrang", "Ilvermorny"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Who played the role of Jack Dawson in the movie Titanic?",
+    "option": ["Brad Pitt", "Leonardo DiCaprio", "Matt Damon", "Tom Cruise"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What is the name of the fictional detective created by Sir Arthur Conan Doyle?",
+    "option": ["Hercule Poirot","Philip Marlowe", "Miss Marple", "Sherlock Holmes"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "question": "What is the name of the fictional city in which Batman operates?",
+    "option": ["Metropolis","Central City", "Gotham City", "Star City"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "Who directed the film Pulp Fiction?",
+    "option": ["Quentin Tarantino","Martin Scorsese", "Steven Spielberg", "Christopher Nolan"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Which actress starred in the film La La Land?",
+    "option": ["Emma Watson","Emma Watson", "Jennifer Lawrence", "Emma Stone"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "question": "Which actor played the role of Princess Leia in the original \"Star Wars\" trilogy?",
+    "option": ["Mark Hamill","Harrison Ford", "Carrie Fisher", "Alec Guinness"],
+    "correctAnswerIndex": 2
+  }
+]
