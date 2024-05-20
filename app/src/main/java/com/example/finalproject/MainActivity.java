@@ -1,6 +1,8 @@
 package com.example.finalproject;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,4 +23,14 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+
+    public void GoTo_PlayScreen_Button(View view){
+        Intent intent = new Intent(this, MainQuestionsActivity.class);
+        startActivity(intent);
+    }
+
+
+
+
 }
