@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="radioButtonClick"
-            android:text="RadioButton"
+            android:text="@string/RadioButton"
             android:textColor="@android:color/holo_orange_dark"
             android:textSize="24sp" />
 
@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="radioButtonClick"
-            android:text="RadioButton"
+            android:text="@string/RadioButton"
             android:textColor="@android:color/holo_orange_dark"
             android:textSize="24sp" />
 
@@ -41,7 +41,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="radioButtonClick"
-            android:text="RadioButton"
+            android:text="@string/RadioButton"
             android:textColor="@android:color/holo_orange_dark"
             android:textSize="24sp" />
 
@@ -50,7 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="radioButtonClick"
-            android:text="RadioButton"
+            android:text="@string/RadioButton"
             android:textColor="@android:color/holo_orange_dark"
             android:textSize="24sp" />
     </RadioGroup>
@@ -61,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="156dp"
         android:onClick="submitAnswer"
-        android:text="Submit"
+        android:text="@string/Submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,24 +69,24 @@
         app:layout_constraintVertical_bias="0.829" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textViewQuestionIndex"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="Question 1 of 10"
+        android:text="@string/Question_1_of_10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:text="QUESTION "
+        android:id="@+id/textViewQuestion"
+        android:layout_width="389dp"
+        android:layout_height="197dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/QUESTION"
         app:layout_constraintBottom_toTopOf="@+id/radioGroup"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7"
-        app:layout_constraintVertical_bias="0.598" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuestionIndex"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
