@@ -53,12 +53,12 @@ public class MainQuestionsActivity extends AppCompatActivity {
     private ArrayList<TriviaQuestion> readQuestionsFromAssets(){
 
         ArrayList<TriviaQuestion> questions = new ArrayList<>();
-        TriviaQuestion question_Placeholder = new TriviaQuestion("How many times have played Trivia","0","1","2","More than Twice ", 3);
+        //TriviaQuestion question_Placeholder = new TriviaQuestion("How many times have you played Trivia","0","1","2","More than Twice ", 3);
         try {
-            InputStream is = getAssets().open("questions.JSON");
+            //The FullPath to the questions.JSON makes it run.
+            InputStream is = getAssets().open("C:\\Users\\azgmg\\Desktop\\Gitf\\FinalProject\\app\\src\\main\\assets\\questions.JSON");
             InputStreamReader isr = new InputStreamReader(is);
-            Type questionListType = new
-                    TypeToken<ArrayList<TriviaQuestion>>() {
+            Type questionListType = new TypeToken<ArrayList<TriviaQuestion>>() {
                     }.getType();
             questions = new Gson().fromJson(isr, questionListType);
             isr.close();
