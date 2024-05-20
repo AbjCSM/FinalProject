@@ -1,7 +1,7 @@
 package com.example.finalproject;
 
-public class Questions {
-    public static class TriviaQuestion {
+public class TriviaQuestion {
+
         private String question;
         private String[] options;
         private int correctAnswerIndex;
@@ -23,5 +23,5 @@ public class Questions {
         public int getCorrectAnswerIndex() {
             return correctAnswerIndex;
         }
-    }
+
 }
